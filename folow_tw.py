@@ -78,7 +78,7 @@ with open('D:\\linking\\scripts\\intern2\\All_followers.csv', newline='') as csv
 
 # sending messages till the limit is exhausted
 ct=0 # only 1000 dms are allowed for each account in 24hrs. 
-while ct<=5:
+while ct<1000:
     for i in range(len(x)):
         rec_id=x[i]
         msg="Hi,"+y[i]+" hope your are doing well"
